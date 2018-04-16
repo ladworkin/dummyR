@@ -1,0 +1,19 @@
+Package: dummyR
+Type: Package
+Title: Interactive package loader
+Version: 0.0.0.9000
+Author: Leo Dworkin
+Maintainer: Leo Dworkin <lad@sund.ku.dk>
+Description: Interactive package loader that queries user for source and path to package.
+    Dummy package created purely to motivate understanding of package maintenance in R.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: RMongo (>= 0.0.25),
+    RODBC (>= 1.3.15),
+    foreign (>= 0.8.69),
+    XLConnect (>= 0.2.14),
+    XML (>= 3.98.1.10),
+    rjson (>= 0.2.15)
+RoxygenNote: 6.0.1
+Suggests: testthat
